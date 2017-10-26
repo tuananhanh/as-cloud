@@ -139,7 +139,7 @@
             </asp:SqlDataSource>
             
     </div>
-    <div class="container page-top">
+    <div class="container page-top" style="margin-bottom:20px;">
         <h3>CHUYÊN MỤC SẢN PHẨM</h3>
          <asp:DetailsView ID="DetailsView5" runat="server" Height="100px" Width="500px" AutoGenerateRows="False" CellPadding="4" DataKeyNames="ms" DataSourceID="chuyenmucsanpham" ForeColor="#333333" GridLines="None" style="margin-right: 20px" AllowPaging="True">
              <AlternatingRowStyle BackColor="White" />
@@ -175,5 +175,6 @@
                 <asp:Parameter Name="ms" Type="Int32"></asp:Parameter>
             </UpdateParameters>
         </asp:SqlDataSource>
+    </div>
     </div>
 </asp:Content>
