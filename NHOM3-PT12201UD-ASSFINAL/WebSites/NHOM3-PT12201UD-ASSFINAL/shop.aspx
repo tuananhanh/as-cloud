@@ -15,7 +15,7 @@
                                         <asp:Image id="Image1" runat="server"
                                         CssClass ="img-rounded"
                                         Width="100%"
-                                        Height="300px"
+                                        Height="275px"
                                         AlternateText="Image text"
                                         ImageAlign="left"
                                         ImageUrl="<%# Bind('anh')%>"
